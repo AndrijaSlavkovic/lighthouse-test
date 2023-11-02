@@ -5,7 +5,7 @@ module.exports = {
             // staticDistDir: './wp-content/themes/lighthouse-test',
         },
         upload: {
-            target: 'filesystem',
+            target: 'temporary-public-storage',
             outputDir: './lighthouse-results',
         },
     },
