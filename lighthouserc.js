@@ -1,7 +1,7 @@
 module.exports = {
     ci: {
         collect: {
-            url: ['http://localhost:36409/'],
+            url: ['http://lighthouse-test.local/'],
             // staticDistDir: './wp-content/themes/lighthouse-test',
         },
         upload: {
