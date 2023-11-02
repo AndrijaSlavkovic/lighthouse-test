@@ -1,7 +1,7 @@
 module.exports = {
     ci: {
         collect: {
-            url: ['https://oneroute.info/'],
+            url: ['https://katiecouric.com/'],
             // staticDistDir: './wp-content/themes/lighthouse-test',
         },
         upload: {
