@@ -1,7 +1,7 @@
 module.exports = {
     ci: {
         collect: {
-            staticDistDir: './',
+            staticDistDir: './wp-content/themes/lighthouse-test',
         },
         upload: {
             target: 'temporary-public-storage',
