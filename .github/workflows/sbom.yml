@@ -15,4 +15,8 @@ jobs:
     steps:
       - uses: anchore/sbom-action@v0
         with:
-          artifact-name: sbom.spdx
+            path: /github/workspace
+            artifact-name: sbom.spdx
+            dependency-snapshot: true
+            upload-artifact: true
+            
